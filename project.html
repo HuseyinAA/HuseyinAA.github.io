@@ -6,6 +6,7 @@
     <title>My Profile</title>
     <meta name="author" content="Hossain Ghazal" />
     <meta name="description" content="This is my Profile" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.PNG" type="image/x-PNG" />
     <link href="profileStyle.css" rel="stylesheet" />
 </head>
@@ -13,11 +14,46 @@
 <body>
     <nav class="nav">
         <ul class="navUl">
-            <li class="navLi"><a href="index.html">Home</a></li>
+            <li class="navLi" id="first_nav_button"><a href="index.html">Home</a></li>
             <li class="navLi"><a href="project.html">Projects</a></li>
             <li class="navLi"><a target="_blank" href="https://www.linkedin.com/in/hossain-ghazal-6a811917a/">My Linkedin</a></li>
         </ul>
     </nav>
+    <div class="profileSection">
+        <img src="./Images/profile.PNG" alt="Picture: Hossain Ghazal" class="profileImg" />
+        <div class="skillset">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Skill</th>
+                        <th>Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>C#</td>
+                        <td>Proficient</td>
+                    </tr>
+                    <tr>
+                        <td>Java</td>
+                        <td>Novice</td>
+                    </tr>
+                    <tr>
+                        <td>Dart</td>
+                        <td>Proficient</td>
+                    </tr>
+                    <tr>
+                        <td>Blender 3D</td>
+                        <td>Novice</td>
+                    </tr>
+                    <tr>
+                        <td>Photoshop</td>
+                        <td>Expert</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
     <section>
         <h3>Projects:</h3>
         <p>
@@ -56,8 +92,14 @@
             </tbody>
         </table>
     </div>
+    <div class="empty_space"></div>
 </body>
 <footer>
+    <div class="socials_icons_links">
+        <a href=""><img src="./icons/linkedin_icon.PNG" alt="Linkedin Link: Hossain Ghazal" class="social_icons_linkedin" /></a>
+        <a href=""><img src="./icons/twitter_icon.PNG" alt="Twitter Link: Hossain Ghazal" class="social_icons_twitter" /></a>
+        <a href=""><img src="./icons/github_icon.PNG" alt="Github Link: Hossain Ghazal" class="social_icons_github" /></a>
+    </div>
     <small>Copyright &#169; Hossain Ghazal 2021 <cite>H.Ghazal</cite></small>
 </footer>
 
